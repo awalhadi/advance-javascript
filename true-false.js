@@ -3,6 +3,7 @@
  * 0
  * ''
  * ""
+ * ``
  * NaN
  * undefined
  * null
@@ -21,7 +22,7 @@
   * "true";
   */
 
-let name = "true";
+let name = ``;
 if (name) {
    console.log(true); 
 }else{
